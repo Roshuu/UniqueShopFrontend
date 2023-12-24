@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+body,
+html{
+    margin: 0;
+    padding: 0;
+    //height: 100%;
+    font-family: Palatino, URW Palladio L, serif	;
+    font-size: 1.15em;
+}
+
+
+
+
+a {
+    text-decoration: none; /* Wyłącz podkreślenie linku */
+    color: black; /* Dziedzicz kolor tekstu od rodzica (może być dostosowane według potrzeb) */
+}
+
+/* Styl, który może być zastosowany, aby pokazać, że link jest aktywny */
+a:hover {
+    color: #6d6d6d; /* Zmień kolor tekstu na czerwony po najechaniu myszą (może być dostosowane według potrzeb) */
+}
