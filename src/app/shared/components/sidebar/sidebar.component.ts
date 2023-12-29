@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class SidebarComponent {
 
+  categorys =["jeden","dwa","trzy","cztery","piec"];
+
 }

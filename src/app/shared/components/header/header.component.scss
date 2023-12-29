@@ -1,18 +1,32 @@
 :host {
-        background-color: #389b11; /* Kolor tła nagłówka */
+        background-color: #9c8fd8; /* Kolor tła nagłówka */
         padding: 1em;
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
         
     }
 
 
-.links{
+
+.logo{
     text-align: center;
 }
 
-a{
-    margin: 0.5em;
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.logo{
-    padding-left: 2em;
+.left-side{
+    justify-content: left;
+}
+
+.right-side{
+    justify-content: flex-end;
+}
+
+a{
+    padding: 1em;
 }

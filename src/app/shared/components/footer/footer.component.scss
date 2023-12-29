@@ -1,4 +1,13 @@
 :host{
-    background: #999;
+    background: #9c8fd8;
     padding: 20px;
+    font-size: 0.75em;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 8em;
+    padding-right: 8em;
 }
