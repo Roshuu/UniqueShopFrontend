@@ -6,6 +6,7 @@ import { ProductComponent } from '../../modules/product/product.component';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SharedModule } from '../../shared/shared.module';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -14,12 +15,14 @@ import { SharedModule } from '../../shared/shared.module';
     DefaultComponent,
     HomeComponent,
     ProductComponent
+    
   ],
   imports: [
     CommonModule,
     RouterModule,
     FlexLayoutModule,
-    SharedModule
+    SharedModule,
+    MatCardModule
   ]
 })
 export class DefaultModule { }

@@ -1,5 +1,12 @@
 :host{
+    
+
     display: flex;
-    background: #b898dd;
+    background: #e9e1f1;
     padding: 1.5em;
+   
+}
+
+::ng-deep.mat-pseudo-checkbox{
+    display: none !important;
 }

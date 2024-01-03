@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
+import {MatCardModule} from '@angular/material/card';
+import {MatSelectModule} from '@angular/material/select';
 
 
 
@@ -10,12 +12,17 @@ import {MatListModule} from '@angular/material/list';
   imports: [
     CommonModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    MatSelectModule
+
   ],
 
   exports:[
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    MatSelectModule
   ]
 
 })
