@@ -10,7 +10,7 @@ import { LoginComponent } from './modules/login/login.component';
 import { AdminComponent } from './modules/admin/admin.component';
 import { FullpageadminModule } from './layouts/fullpageadmin/fullpageadmin.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     DefaultModule,
     FullpageModule,
     FullpageadminModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
     
   ],
   providers: [
