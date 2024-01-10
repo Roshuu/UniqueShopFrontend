@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SharedModule } from '../../shared/shared.module';
 import {MatCardModule} from '@angular/material/card';
+import { MaterialModule } from '../../shared/material.module';
 
 
 
@@ -22,7 +23,8 @@ import {MatCardModule} from '@angular/material/card';
     RouterModule,
     FlexLayoutModule,
     SharedModule,
-    MatCardModule
+    MatCardModule,
+    MaterialModule
   ]
 })
 export class DefaultModule { }

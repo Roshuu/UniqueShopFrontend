@@ -24,7 +24,7 @@ import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/
     FullpageadminModule,
     BrowserAnimationsModule,
     HttpClientModule
-    
+     
   ],
   providers: [
     provideClientHydration()
