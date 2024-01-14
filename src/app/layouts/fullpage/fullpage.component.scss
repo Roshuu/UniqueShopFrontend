@@ -1,11 +1,15 @@
 :host{
     display: flex;
     flex-direction: column;
-    background: #e9e1f1;
+    background: #ffffff;
+    color: black;
+    height: 100%;
 }
 
 .login_form{
     text-align: center;
     padding: 5em;
+    flex: 1 1 auto;
 }
+
 

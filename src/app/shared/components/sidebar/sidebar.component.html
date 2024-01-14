@@ -1,5 +1,6 @@
-<mat-selection-list [multiple]="false" >
-    <mat-list-option *ngFor="let category of categorys">
-        {{category}}
-    </mat-list-option>
-</mat-selection-list>
+
+<mat-list> 
+    <mat-list-item *ngFor="let category of categorys">
+        <p>{{category}}</p>
+    </mat-list-item>  
+</mat-list>

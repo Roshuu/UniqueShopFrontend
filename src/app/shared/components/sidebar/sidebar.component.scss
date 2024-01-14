@@ -1,12 +1,18 @@
 :host{
     
-
     display: flex;
-    background: #e9e1f1;
+    background: #000000;
     padding: 1.5em;
-   
 }
 
-::ng-deep.mat-pseudo-checkbox{
-    display: none !important;
+p{
+    font-family: 'Times New Roman', serif;
+    font-size: 1.15em;
+    color: white;
+    text-align: center;
+    
 }
+
+::ng-deep .mat-list-item {
+    color: gold;; /* Zmień kolor na dowolny, np. czerwony (red) */
+  }

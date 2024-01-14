@@ -4,18 +4,22 @@ import { FullpageadminComponent } from './fullpageadmin.component';
 import { AdminComponent } from '../../modules/admin/admin.component';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '../../shared/shared.module';
+import { AdminProductComponent } from '../../modules/admin/admin-product/admin-product.component';
+import { MaterialModule } from '../../shared/material.module';
 
 
 
 @NgModule({
   declarations: [
     FullpageadminComponent,
-    AdminComponent
+    AdminComponent,
+    AdminProductComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
-    SharedModule
+    SharedModule,
+    MaterialModule
   ]
 })
 export class FullpageadminModule { }

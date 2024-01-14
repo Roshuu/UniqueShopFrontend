@@ -4,12 +4,7 @@
     
 }
 
-mat-card:hover{
-    background-color: #e9e1f1;
-    transition: 0.4s;
-    
 
-}
 
 mat-card{
     margin: 2em;
@@ -38,17 +33,15 @@ mat-card{
 button{
     margin-right: 2em;
     color: white;
-    background: #9c8fd8;
-    border: #9c8fd8;
+    background: #000000;
+    border: #000000;
     padding: 0.75em;
     border-radius: 20%;
 }
 
 button:hover{
     margin-right: 2em;
-    color: white;
-    background: #7c67d8;
-    border: #9c8fd8;
+    color: gold;
     padding: 0.75em;
     border-radius: 20%;
     transition: 0.4s;

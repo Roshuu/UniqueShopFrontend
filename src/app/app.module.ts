@@ -11,6 +11,7 @@ import { AdminComponent } from './modules/admin/admin.component';
 import { FullpageadminModule } from './layouts/fullpageadmin/fullpageadmin.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
+import { AdminProductComponent } from './modules/admin/admin-product/admin-product.component';
 
 @NgModule({
   declarations: [

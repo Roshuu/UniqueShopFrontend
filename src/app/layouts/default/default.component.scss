@@ -1,7 +1,17 @@
 :host{
     display: flex;
     flex-direction: column;
+    height: 100%;
     
+}
+.container{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.sidebar{
+    flex-basis: 15%;
+    background-color: black;
 }
 
 .content {
@@ -9,8 +19,4 @@
     flex: 1 1 auto;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-}
 

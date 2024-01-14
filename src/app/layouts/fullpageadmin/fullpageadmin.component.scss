@@ -1,15 +1,52 @@
 :host{
     display: flex;
     flex-direction: column;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.15em;
+    height: 100%;
+
 }
+
+
+
+header {
+    background-color: #000000; /* Kolor tła nagłówka */
+    padding: 1em;
+    color: #ffffff;
+    
+}
+
 
 
 .container{
-    display: flex;
-   
+    display: flex; 
+    flex: 1 1 auto;
+
+
 }
+
+.sidebar{
+    background: #000000;
+    padding: 1.5em;
+    flex-basis: 10%;
+    
+
+}
+
 .content{
     padding: 1.5em;
-    flex: 1;
-    
+}
+
+a{
+    font-family: 'Times New Roman', serif;
+    font-size: 1.15em;
+}
+
+
+.header-info{
+    padding: 1em;
+}
+
+.logo{
+    text-align: center;
 }

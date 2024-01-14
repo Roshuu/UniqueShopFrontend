@@ -1,13 +1,25 @@
-<app-header></app-header>
+<header>
+    <div class="logo">
+        <img src="/assets/logo2.png">
+    </div>
+    <div class="header-info">
+        ADMIN PANEL
+    </div>
+    
+</header>
 
 <div class="container">
     
-    <div>
-          <app-sidebar></app-sidebar>
+    <div class="sidebar">
+        <mat-list>
+            <mat-list-item><a routerLink="/admin">Dashoboard</a></mat-list-item>
+            <mat-list-item><a routerLink="/admin/product">Product</a></mat-list-item>
+            <mat-list-item><a routerLink="/admin">Link</a></mat-list-item>
+        </mat-list>
     </div>
 
     <div class="content">
-        <router-outlet></router-outlet>
+       <router-outlet></router-outlet>
     </div>
 
 </div>
