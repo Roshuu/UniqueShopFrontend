@@ -1,27 +1,67 @@
-# Shop
+# Dokumentacja Aplikacji TavelloWeB
+ 
+> Aplikacja TravelloWeb stworzona za pomocą technologi .NET wraz z wykorzystaniem języka C#. To narzędzie służy do rejestrowania, logowania, dodawania ogłoszeń wycieczek podróży, przeglądania ogłoszeń i rezerwacji biletów.
+ 
+## Spis Treści
+* [Informacje Ogólne](#informacje-ogólne)
+* [Technologie Użyte](#technologie-użyte)
+* [Funkcjonalności](#funkcjonalności)
+* [Zrzuty Ekranu](#zrzuty-ekranu)
+* [Status Projektu](#status-projektu)
+* [Plan Rozwoju](#plan-rozwoju)
+* [Twórcy](#twórcy)
+* [Kontakt](#kontakt)
+ 
+## Informacje Ogólne
+- Celem aplikacji jest kupno produktów na stronie internetowej oraz obłusga sklepu za pomocą panelu admina.
+ 
+## Technologie Użyte
+- Java
+- Spring
+- MySQL
+ 
+## Funkcjonalności
+- Rejestracja, logowanie i wylogowywanie użytkowników.
+- Dodawanie nowych produktów w sklepie.
+- Edycja produktów.
+- Kupno produktów.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+ 
+## Zrzuty Ekranu
 
-## Development server
+**Strona główna**
+![Strona główna](screenshots/main-page.PNG)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Logowanie**
+![Logowanie](screenshots/login-page.PNG)
 
-## Code scaffolding
+**Produkty**
+![Lista Wycieczek](screenshots/products-page.PNG)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Strona Admina**
+![Dane Wycieczki](screenshots/admin-page.PNG)
 
-## Build
+**Edycja Produktów**
+![Koszyk Produktów](screenshots/productediting-page.PNG)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+ 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ 
+## Jak Korzystać
+- Zarejestruj się i zaloguj do aplikacji, aby korzystać z pełnej funkcjonalności.
+- Dodawaj, edytuj i przeglądaj produktów.
+- Edycja produktów w panelu admina.
+ 
+## Status Projektu
+Projekt jest w trakcie rozwoju.
+ 
+## Plan Rozwoju
+- Wprowadzenie pełnej funkcjonalnościu zakupu produktów.
+- Możliwość logowania się.
+ 
+## Twórca
+- Projekt stworzony przez [@Roshuu](https://github.com/Roshuu).
+ 
+## Kontakt
+- W przypadku pytań lub sugestii, proszę kontaktować się z twórcami projektu.
