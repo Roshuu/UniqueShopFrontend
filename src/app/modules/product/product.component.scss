@@ -1,10 +1,21 @@
 :host{
     background: #b68be0;
-    color: black;
-    
+    color: #000000;    
 }
 
+button{
+    margin-right: 2em;
+    color: white;
+    background: #000000;
+    border: #000000;
+    padding: 0.75em;
+    border-radius: 20%;
+}
 
+button:hover{
+    color: gold;
+    transition: 0.4s;
+}
 
 mat-card{
     margin: 2em;
@@ -30,20 +41,5 @@ mat-card{
 
 }
 
-button{
-    margin-right: 2em;
-    color: white;
-    background: #000000;
-    border: #000000;
-    padding: 0.75em;
-    border-radius: 20%;
-}
 
-button:hover{
-    margin-right: 2em;
-    color: gold;
-    padding: 0.75em;
-    border-radius: 20%;
-    transition: 0.4s;
 
-}

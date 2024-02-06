@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DefaultModule } from './layouts/default/default.module';
@@ -16,6 +15,7 @@ import { AdminProductComponent } from './modules/admin/admin-product/admin-produ
 @NgModule({
   declarations: [
     AppComponent
+  
     ],
   imports: [
     BrowserModule,

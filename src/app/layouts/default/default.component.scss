@@ -3,6 +3,7 @@
     flex-direction: column;
     height: 100%;
     
+    
 }
 .container{
     display: flex;
@@ -11,7 +12,7 @@
 
 .sidebar{
     flex-basis: 15%;
-    background-color: black;
+    background: black;
 }
 
 .content {

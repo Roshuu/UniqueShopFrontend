@@ -1,0 +1,32 @@
+<form [formGroup]="productForm" (submit)="submit()">
+    <mat-form-field appearance="fill">
+      <mat-label>Nazwa</mat-label>
+      <input matInput placeholder="podaj nazwe" formControlName="name">
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill">
+      <mat-label>Opis</mat-label>
+      <textarea matInput rows="7" placeholder="podaj Opis" formControlName="description"></textarea>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Kategoria</mat-label>
+       <input matInput placeholder="podaj Kategoria" formControlName="category">
+    </mat-form-field>
+  
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Cena</mat-label>
+       <input matInput placeholder="podaj Cena" formControlName="price">
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Waluta</mat-label>
+       <input matInput placeholder="podaj Waluta" formControlName="currency">
+    </mat-form-field>
+  
+   <div align="end">
+     <button>Zapisz</button>
+   </div>
+  
+  </form>

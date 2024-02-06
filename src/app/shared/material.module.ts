@@ -5,6 +5,12 @@ import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import {MatSelectModule} from '@angular/material/select';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatTableModule} from '@angular/material/table';
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 
 
@@ -16,8 +22,12 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatListModule,
     MatCardModule,
     MatSelectModule,
-    MatPaginatorModule
-
+    MatPaginatorModule,
+    MatTableModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSnackBarModule
   ],
 
   exports:[
@@ -25,7 +35,12 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatListModule,
     MatCardModule,
     MatSelectModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatTableModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSnackBarModule
   ]
 
 })
